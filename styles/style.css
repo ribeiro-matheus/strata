@@ -102,6 +102,32 @@ ul, ol {
     color: #49BF9D;
 }
 
+.button-default {
+    background-color: #49BF9D;
+    border: 2px solid #49BF9D;
+    color: white;
+    padding: .75em 1.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    display: inline-block;
+}
+
+.button-default-stroke {
+    background-color: white;
+    border-color: #EFEFEF;
+    color: inherit;
+}
+
+.button-default-small {
+    font-size: .65em;
+}
+
+.button-default-full {
+    display: block;
+    text-align: center;
+    margin-bottom: .6em;
+}
+
 .main-header {
     position: fixed;
     top: 0;
