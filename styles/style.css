@@ -214,7 +214,7 @@ textarea {
 }
 
 .col-2-3 {
-    width: 65%;
+    width: 66%;
     float: left;
 }
 
@@ -223,8 +223,17 @@ textarea {
     float: left;
 }
 
-.col-1-3:nth-child(3n - 1) {
-    margin: 0 2%;
+ .col-1-3:nth-child(3n - 2) {/*1, 4, 7 */
+    margin-right: 2%;
+}
+
+.col-1-3:nth-child(3n) {/*3, 6, 9 */
+    margin-left: 2%;
+}
+
+/* seleciona o o primeiro elemento após o determinado*/
+.col-2-3 + .col-1-3, .col-1-3 + .col-2-3  {
+    margin-left: 2%;
 }
 
 .ul-alternate {
