@@ -282,6 +282,14 @@ textarea {
     color: #49BF9D;
 }
 
+.hidden {
+    display: block;
+   width: 0;
+   height: 0;
+   overflow: hidden;
+   visibility: hidden;
+}
+
 .button-default {
     background-color: #49BF9D;
     border: 3px solid #49BF9D;
