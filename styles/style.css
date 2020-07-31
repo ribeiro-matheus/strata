@@ -194,6 +194,30 @@ textarea {
     font-size: 1em;
 }
 
+.main-footer {
+    position: fixed;
+    bottom: 0;
+    width: 35%;
+    padding: 0 54px 92px 0;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.icon-link {
+    color: rgba(255, 255, 255, .5);
+    border: 0;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
+
+.copyright li {
+    display: inline-block;
+    font-size: .9em;
+}
+
+.design a {
+    color: rgba(255, 255, 255, .5);
+}
 /* grid */
 
 .row {
